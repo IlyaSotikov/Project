@@ -6,4 +6,7 @@ const lengthAC = Math.abs(C - A);
 const lengthBC = Math.abs(B - C);
 
 alert (`Длина отрезка AC: ${lengthAC}`);
-alert (`Длина отрезка BC: ${lengthBC}`);
+alert (`Длина отрезка BC: ${lengthBC}`);1
+
+const sumLength = lengthAC + lengthBC
+alert ("Сумма длин отрезков AC и BC: " + sumLength);
